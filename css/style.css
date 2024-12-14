@@ -432,3 +432,37 @@ h3.my-profession{
   text-transform: capitalize;
   color: var(--text-black-900);
 }
+
+
+
+.project .container{
+  padding-bottom: 40px;
+}
+.project .project-item{
+  margin-bottom: 30px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.project .project-item .project-item-inner{
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  padding: 30px 15px;
+  transition: all 0.3s ease;
+}
+.project .project-item .project-item-inner:hover{
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.project .project-item .project-item-inner h4{
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--text-black-900);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.project .project-item .project-item-inner p{
+  font-size: 16px;
+  color: var(--text-black-700);
+  line-height: 25px;
+}
