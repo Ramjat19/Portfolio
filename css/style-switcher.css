@@ -11,7 +11,7 @@
   transition: all 0.3s ease;
   transform: translateX(100%);
 }
-.style-switcher .open{
+.open{
   transform: translateX(-25px);
 }
 .style-switcher .s-icon{
@@ -57,13 +57,13 @@
   border-radius: 50%;
 }
 .style-switcher .color-1{
-  background: #ec1839;
+  background: #9f08d1;
 }
 .style-switcher .color-2{
-  background: #fa5b0f;
+  background: #dc0b0b;
 }
 .style-switcher .color-3{
-  background: #37b182;
+  background: #36a610;
 }
 .style-switcher .color-4{
   background: #1854b4;
